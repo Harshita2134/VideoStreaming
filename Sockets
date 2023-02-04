@@ -8,7 +8,6 @@ import threading, wave, pyaudio,pickle,struct
 import sys
 import queue
 import os
-# For details visit pyshine.com
 q = queue.Queue(maxsize=10)
 
 filename =  'count.mp4'
@@ -142,7 +141,6 @@ import numpy as np
 import time, os
 import base64
 import threading, wave, pyaudio,pickle,struct
-# For details visit pyshine.com
 BUFF_SIZE = 65536
 
 BREAK = False
